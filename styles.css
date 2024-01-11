@@ -10,7 +10,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('compressed_book_cover.jpg') no-repeat center center/cover;
+    background: url('compressed_book_cover.jpg') no-repeat center 29%/cover; /* Adjusted the y-value to 20% */
     color: #fff;
     text-align: center;
     position: relative;
@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 /* Content Wrapper inside Hero Section */
 .content-wrapper {
